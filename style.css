@@ -1,0 +1,58 @@
+body{
+    background: #d3d3d326;
+   
+    }
+header{
+        background: #91a5fa;
+        text-align: center;
+        padding: 10px 20px;
+        border-radius: 5px;
+    }
+.title{
+        font-weight: bold;
+        color: white;
+    }
+.subtitle{
+        color: gray;
+        font-size: small;
+    } 
+.figure{
+        min-height: 120px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    input{
+        width: 10%;
+        box-sizing: border-box;
+        padding: 5px;   
+        border-radius: 5px;
+        text-align: center;
+    }        
+.example-square{
+        border: 1px solid red;
+        height: 80px;
+        width: 80px;
+    }
+.result-luas{
+    visibility: hidden;
+}
+.formula-description{
+    text-align: center;
+}
+.formula-description .group button{
+    background: #91a5fa;
+}
+section{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+}
+button{
+    border-radius: 5px;
+    border: none;
+    width: 50px;
+    height: 25px;
+}

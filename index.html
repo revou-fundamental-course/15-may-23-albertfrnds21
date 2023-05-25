@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="logomtk.png" type="image/x-icon">
+    <title>Kalkulator Matematik</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        
+    </section>
+    <header>
+        <span class="title"> katik </span><span class="subtitle">kalkulator matematik</span>
+    </header>
+    <main>
+        <div class="figure">
+        <div class="example-square"></div>
+        </div>
+        <div class="formula-description">
+            <p>Rumus luas persegi</p>
+            <p>L = s x s</p>
+            <p>K = s x s x s x s</p>
+            
+            <p>Di mana:</p>
+            <p>L : Luas</p>
+            <p>S : Sisi</p>
+    
+            <h3>Hitung luas persegi</h3>
+            <input id="s" name="sisi" placeholder="Masukkan Angka">
+            <p class="result" id="rumus-luas"></p>
+            <p class="result" id="perhitungan-luas"></p>
+            <p class="result">L = <span id="output-luas"></span></p>
+            <p class="result">K = <span id="output-keliling"></span></p>
+            <div class="group">
+            <button name="hitung-luas" onclick="luas(),keliling()">Hitung</button>
+            <button name="reset-luas" onclick="reset()">Reset</button>
+         </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
